@@ -8,6 +8,15 @@
 #include <linux/delay.h>
 
 #define DRIVER_NAME "device"
+#defind I2C_ADDRESS = 0x3F //example 
+
+#define COMMAND1 0x01 //example
+#define COMMAND1 0x02 //example
+#define COMMAND1 0x03 //example
+
+#define REGISTER1 0x01 //example
+#define REGISTER1 0x02 //example
+
 
 static struct i2c_client *device_client;
 static dev_t dev_num;
